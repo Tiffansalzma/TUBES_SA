@@ -13,7 +13,6 @@ def dynamic(n, k):
         result[2] = k * k
         for i in range(3,n+1):
             result[i] = ((k-1) * (result[i-1] + result[i-2]))
-            print(result[i])
     
     return result[n]
 
